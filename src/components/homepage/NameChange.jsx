@@ -1,13 +1,13 @@
 import React, { useState } from 'react';
 
-function NameChangeButton() {
-    const [name, setName] = useState(true);
+function NameChange() {
+    const [name, setName] = useState("palvi");
     const [nameChanged, setNameChanged] = useState(false);
     const handleNameChange = () => {
         if (nameChanged) {
-            setName("John");
+            setName("neha");
         } else {
-            const newName = "pardeep";
+            const newName = "muskan";
             if (newName) {
                 setName(newName);
             }
@@ -16,7 +16,8 @@ function NameChangeButton() {
     };
     return (
 
-        <div>
+        <div>[ 'Muskan' , 'Neha' , 'palvi']
+        Print the name in ascending order
             <button onClick={handleNameChange}>
                 {name}
             </button>
@@ -24,7 +25,4 @@ function NameChangeButton() {
     );
 }
 
-export default NameChangeButton;
-
-
-
+export default NameChange;

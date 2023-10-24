@@ -1,14 +1,12 @@
-import './App.css';
-import NameChange from './components/NameChange';
-import ReactInput from './components/ReactInput';
+import React from 'react'
+import AppRouter from './components/AppRouter'
 
-function App() {
+const App = () => {
   return (
-    <>
-      {/* <ReactInput/>    */}
-      <NameChange/>
-    </>
-  );
+    <div>
+      <AppRouter/>
+    </div>
+  )
 }
 
-export default App;
+export default App
