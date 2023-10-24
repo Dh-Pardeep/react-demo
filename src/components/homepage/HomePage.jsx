@@ -54,19 +54,22 @@ const HomePage = () => {
             </p>
             <p>Quection No.8
                 <button>
-                    <Link>
+                    <Link to="PrintStar">
+                    Pending 
                     </Link>
                 </button>
             </p>
             <p>Quection No.9
                 <button>
-                    <Link>
+                    <Link to="greater">
+                    pending
                     </Link>
                 </button>
             </p>
             <p>Quection No.10
                 <button>
-                    <Link>
+                    <Link to="Sum">
+                    pending
                     </Link>
                 </button>
             </p>

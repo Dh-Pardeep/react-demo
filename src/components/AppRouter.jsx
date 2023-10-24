@@ -8,6 +8,9 @@ import From from './homepage/From';
 import Table from './homepage/Table';
 import NameChange from './homepage/NameChange';
 import GoDelhi from './homepage/GoDelhi';
+import PrintStar from './homepage/PrintStar';
+import Greater from './homepage/Greater';
+import Sum from './homepage/Sum';
 const AppRouter = () => {
   return (
     <div>
@@ -21,6 +24,9 @@ const AppRouter = () => {
       <Route path='/Table' element={<Table/>}/>
       <Route path='/NameChange' element={<NameChange/>}/>
       <Route path='/GoDelhi' element={<GoDelhi/>}/>
+      <Route path='/PrintStar' element={<PrintStar/>}/>
+      <Route path='/greater' element={<Greater/>}/>
+      <Route path='/Sum' element={<Sum/>}/>
      </Routes>
     </React.Fragment>
     </div>
